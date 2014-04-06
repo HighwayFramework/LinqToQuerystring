@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21126.0
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToQuerystring", "LinqToQuerystring\LinqToQuerystring.csproj", "{7859C906-95D8-4322-AA44-BC854B065AEE}"
 EndProject
@@ -34,6 +34,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToQuerystring.WebApi2", "LinqToQuerystring.WebApi\LinqToQuerystring.WebApi2.csproj", "{C2EBA6BA-11AD-4AF7-B935-B71B761A63FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToQuerystring.IntegrationTests.WebApi2", "LinqToQuerystring.IntegrationTests.WebAPI\LinqToQuerystring.IntegrationTests.WebApi2.csproj", "{6892C887-A339-4F81-93F2-FFEF64DCE7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{773ED77F-65E0-44B0-A36A-6F29A39D8137}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
